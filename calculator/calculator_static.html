@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Gunfire Reborn CritX calculator</h1>
+    <p>This calculator will return your total CritX chance, based on your weapon and its inscriptions, your scrolls and your assigned skills.</p>
+    <form method="POST" action="calculator.php">
+        <fieldset>
+            <legend>CritX modifiers</legend>
+            <label for="base">Base weapon CritX</label>
+            <input type="number" name="base" id="input_base" value="0" step="10" min="0" max="100"><br><br>
+            <label for="inscription_count">Amount of CritX inscriptions</label>
+            <input type="number" name="inscription_count" id="input_inscription_count" value="0" min="0" max="4"><br><br>
+            <label for="skill_level">Criticals skill level</label>
+            <input type="number" name="skill_level" id="input_skill_level" value="0" min="0" max="5"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
